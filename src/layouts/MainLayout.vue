@@ -43,7 +43,7 @@
     <!-- 主要内容区 -->
     <div class="main-container">
 
-      <aside class="sidebar" v-if="!(isLoginOrRegister&isShowSidebar)">
+      <aside class="sidebar" v-if="!(isLoginOrRegister||isShowSidebar)">
         <Sidebar />
       </aside>
 
